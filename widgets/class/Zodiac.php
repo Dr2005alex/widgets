@@ -59,6 +59,3 @@ class widgets_class_Zodiac{
 
     } 
 }
-
-
-class_alias('widgets_class_Zodiac', 'Zodiac');

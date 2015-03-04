@@ -18,6 +18,8 @@ function Widgets(){
         return call_user_func_array($func_name, $args);
         
     }else{
+        global $cfg;
+        require_once $cfg['modules_dir'].'/widgets/class/'.ucfirst($func_name).'.php';
         
         $classname ='widgets_class_'.ucfirst($func_name);
         $result = new $classname($args);

@@ -105,6 +105,3 @@ class widgets_class_Datetimepicker{
 
     } 
 }
-
-
-class_alias('widgets_class_Datetimepicker', 'Datetimepicker');
